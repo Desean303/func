@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+void halloween();
+
+int main() {
+	int num;
+	cout << "how was you thanksgiving (4 - 0)" << endl;
+	cin >> num;
+	if (num < 4)
+		cout << "nice and cozy :(" << endl;
+	else if (num > 10)
+		cout << "get a big turkey" << endl;
+	if (num < 11)
+		cout << "hope your aren't stuck doing the dishes!" << endl;
+
+}
